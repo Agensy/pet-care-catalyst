@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Heart, Star } from "lucide-react";
-import heroImage from "@/assets/hero-veterinary.jpg";
 const Hero = () => {
   const handleWhatsAppClick = () => {
     window.open("https://wa.me/5511988750856?text=Olá! Quero agendar uma consulta para meu pet na Pet Shop Lola.", "_blank");
@@ -16,7 +15,7 @@ const Hero = () => {
   return <section id="home" className="min-h-screen flex items-center relative overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src={heroImage} alt="Veterinário cuidando de pet com carinho" className="w-full h-full object-cover" />
+        <img src="/lovable-uploads/ff4050a1-398d-4a6f-ab02-acfcf85c3d5c.png" alt="Pessoa sorrindo com seu pet - cuidado e carinho veterinário" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/40" />
       </div>
 
