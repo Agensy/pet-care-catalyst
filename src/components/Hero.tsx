@@ -30,7 +30,7 @@ const Hero = () => {
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
             Cuidados Veterinários 
-            <span className="text-primary block">de Excelência</span>
+            <span className="text-primary block">de Excelência e Qualidade</span>
           </h1>
 
           {/* Subheadline */}
