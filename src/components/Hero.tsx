@@ -1,28 +1,22 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Heart, Star } from "lucide-react";
 import heroImage from "@/assets/hero-veterinary.jpg";
-
 const Hero = () => {
   const handleWhatsAppClick = () => {
     window.open("https://wa.me/5511988750856?text=Olá! Quero agendar uma consulta para meu pet na Pet Shop Lola.", "_blank");
   };
-
   const handleLearnMoreClick = () => {
     const element = document.getElementById("sobre");
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({
+        behavior: "smooth"
+      });
     }
   };
-
-  return (
-    <section id="home" className="min-h-screen flex items-center relative overflow-hidden">
+  return <section id="home" className="min-h-screen flex items-center relative overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="Veterinário cuidando de pet com carinho" 
-          className="w-full h-full object-cover"
-        />
+        <img src={heroImage} alt="Veterinário cuidando de pet com carinho" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/40" />
       </div>
 
@@ -60,21 +54,12 @@ const Hero = () => {
 
           {/* Call to Actions */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button 
-              onClick={handleWhatsAppClick}
-              size="lg"
-              className="bg-gradient-primary hover:shadow-glow transition-smooth text-lg px-8 py-4 rounded-full"
-            >
+            <Button onClick={handleWhatsAppClick} size="lg" className="bg-gradient-primary hover:shadow-glow transition-smooth text-lg px-8 py-4 rounded-full text-slate-50">
               Agendar Consulta
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             
-            <Button 
-              onClick={handleLearnMoreClick}
-              variant="outline"
-              size="lg"
-              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth text-lg px-8 py-4 rounded-full"
-            >
+            <Button onClick={handleLearnMoreClick} variant="outline" size="lg" className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth text-lg px-8 py-4 rounded-full">
               Conheça Nossa Clínica
             </Button>
           </div>
@@ -102,8 +87,6 @@ const Hero = () => {
       {/* Floating Elements */}
       <div className="absolute top-20 right-10 w-20 h-20 bg-primary-glow/20 rounded-full blur-xl animate-pulse hidden lg:block" />
       <div className="absolute bottom-20 right-20 w-32 h-32 bg-accent/20 rounded-full blur-2xl animate-pulse hidden lg:block" />
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
