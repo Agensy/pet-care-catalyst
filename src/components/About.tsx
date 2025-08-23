@@ -42,7 +42,7 @@ const About = () => {
             <div className="grid grid-cols-2 gap-4">
               <Card className="p-6 text-center bg-card hover:shadow-medium transition-smooth">
                 <Heart className="w-8 h-8 text-accent mx-auto mb-3" />
-                <div className="text-2xl font-bold text-foreground mb-1">100+</div>
+                <div className="text-2xl font-bold text-foreground mb-1">1000+</div>
                 <div className="text-sm text-muted-foreground">Casos de Sucesso</div>
               </Card>
 
