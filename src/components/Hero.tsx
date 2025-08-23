@@ -15,7 +15,7 @@ const Hero = () => {
   return <section id="home" className="min-h-screen flex items-center relative overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src="/lovable-uploads/ff4050a1-398d-4a6f-ab02-acfcf85c3d5c.png" alt="Pessoa sorrindo com seu pet - cuidado e carinho veterinário" className="w-full h-full object-cover" />
+        <img src="/lovable-uploads/5deb9a34-d36a-45d1-8747-d281477ba655.png" alt="Pessoa sorrindo com seu pet - cuidado e carinho veterinário" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/40" />
       </div>
 
