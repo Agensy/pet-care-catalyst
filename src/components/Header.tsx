@@ -22,13 +22,14 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">🐾</span>
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-foreground">Pet Shop Lola</h1>
-              <p className="text-xs text-muted-foreground hidden sm:block">Cuidados Veterinários</p>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/e8f893d6-7926-42ef-abe2-16b5a87c477c.png" 
+              alt="Lola Pet Shop Logo" 
+              className="w-12 h-12 object-contain"
+            />
+            <div className="hidden sm:block">
+              <p className="text-xs text-muted-foreground">Cuidados Veterinários</p>
             </div>
           </div>
 
