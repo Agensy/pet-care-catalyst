@@ -1,20 +1,14 @@
 import { Card } from "@/components/ui/card";
 import { Heart, Award, Users, Clock } from "lucide-react";
 import aboutImage from "@/assets/about-veterinary.jpg";
-
 const About = () => {
-  return (
-    <section id="sobre" className="py-20 bg-gradient-trust">
+  return <section id="sobre" className="py-20 bg-gradient-trust">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image Section */}
           <div className="relative">
             <div className="relative z-10">
-              <img 
-                src={aboutImage} 
-                alt="Veterinário examinando gato com cuidado"
-                className="w-full rounded-2xl shadow-strong"
-              />
+              <img src={aboutImage} alt="Veterinário examinando gato com cuidado" className="w-full rounded-2xl shadow-strong" />
             </div>
             {/* Decorative Elements */}
             <div className="absolute -top-6 -left-6 w-24 h-24 bg-primary-glow/30 rounded-full blur-xl" />
@@ -26,7 +20,7 @@ const About = () => {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Nossa História de 
-                <span className="text-primary"> Cuidado e Dedicação</span>
+                <span className="text-primary"> Cuidado e Dedicação com os Pets</span>
               </h2>
               
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
@@ -92,8 +86,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
