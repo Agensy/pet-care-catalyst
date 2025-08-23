@@ -17,7 +17,7 @@ const PromoVideo = () => {
           </div>
 
           {/* Video Container */}
-          <div className="relative rounded-2xl overflow-hidden shadow-elegant bg-card">
+          <div className="relative rounded-2xl overflow-hidden shadow-strong bg-card">
             <div className="aspect-video">
               <iframe
                 width="100%"
