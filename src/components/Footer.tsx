@@ -26,12 +26,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">🐾</span>
-              </div>
+            <div className="flex items-center space-x-3 mb-6">
+              <img 
+                src="/lovable-uploads/e8f893d6-7926-42ef-abe2-16b5a87c477c.png" 
+                alt="Lola Pet Shop Logo" 
+                className="w-12 h-12 object-contain"
+              />
               <div>
-                <h3 className="text-xl font-bold">Pet Shop Lola</h3>
                 <p className="text-sm text-background/80">Cuidados Veterinários de Excelência</p>
               </div>
             </div>
