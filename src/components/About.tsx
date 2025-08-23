@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Heart, Award, Users, Clock } from "lucide-react";
-const aboutImage = "/lovable-uploads/9a376adb-be84-461a-b2f8-781138a2724e.png";
+import aboutImage from "@/assets/about-veterinary.jpg";
 const About = () => {
   return <section id="sobre" className="py-20 bg-gradient-trust">
       <div className="container mx-auto px-4">
@@ -8,7 +8,7 @@ const About = () => {
           {/* Image Section */}
           <div className="relative">
             <div className="relative z-10">
-              <img src={aboutImage} alt="Menina sorridente segurando gatinho com carinho" className="w-full rounded-2xl shadow-strong" />
+              <img src={aboutImage} alt="Veterinário examinando gato com cuidado" className="w-full rounded-2xl shadow-strong" />
             </div>
             {/* Decorative Elements */}
             <div className="absolute -top-6 -left-6 w-24 h-24 bg-primary-glow/30 rounded-full blur-xl" />
@@ -40,11 +40,7 @@ const About = () => {
 
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-4">
-              <Card className="p-6 text-center bg-card hover:shadow-medium transition-smooth">
-                <Heart className="w-8 h-8 text-accent mx-auto mb-3" />
-                <div className="text-2xl font-bold text-foreground mb-1">1000+</div>
-                <div className="text-sm text-muted-foreground">Casos de Sucesso</div>
-              </Card>
+              
 
               <Card className="p-6 text-center bg-card hover:shadow-medium transition-smooth">
                 <Users className="w-8 h-8 text-primary mx-auto mb-3" />
@@ -52,11 +48,7 @@ const About = () => {
                 <div className="text-sm text-muted-foreground">Tutores Satisfeitos</div>
               </Card>
 
-              <Card className="p-6 text-center bg-card hover:shadow-medium transition-smooth">
-                <Award className="w-8 h-8 text-accent mx-auto mb-3" />
-                <div className="text-2xl font-bold text-foreground mb-1">5+</div>
-                <div className="text-sm text-muted-foreground">Anos de Experiência</div>
-              </Card>
+              
 
               <Card className="p-6 text-center bg-card hover:shadow-medium transition-smooth">
                 <Clock className="w-8 h-8 text-primary mx-auto mb-3" />
