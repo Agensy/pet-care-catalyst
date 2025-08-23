@@ -105,26 +105,26 @@ const Testimonials = () => {
         </div>
 
         {/* Social Proof Summary */}
-        <div className="bg-gradient-caring rounded-2xl p-8 lg:p-12 text-center">
+        <div className="bg-black rounded-2xl p-8 lg:p-12 text-center">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-muted-foreground">Tutores Satisfeitos</div>
+              <div className="text-white/80">Tutores Satisfeitos</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-primary mb-2">100+</div>
-              <div className="text-muted-foreground">Casos de Sucesso</div>
+              <div className="text-white/80">Casos de Sucesso</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-primary mb-2">5★</div>
-              <div className="text-muted-foreground">Avaliação Média</div>
+              <div className="text-white/80">Avaliação Média</div>
             </div>
           </div>
 
-          <h3 className="text-2xl lg:text-3xl font-bold text-foreground mb-4">
+          <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">
             Junte-se aos Tutores Satisfeitos!
           </h3>
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
             Experiências reais de tutores que escolheram a Pet Shop Lola para 
             cuidar de seus pets com carinho, profissionalismo e excelência.
           </p>
@@ -134,10 +134,10 @@ const Testimonials = () => {
             {[...Array(5)].map((_, i) => (
               <Star key={i} className="w-6 h-6 text-primary fill-current" />
             ))}
-            <span className="text-lg font-semibold text-foreground ml-2">5.0/5.0</span>
+            <span className="text-lg font-semibold text-white ml-2">5.0/5.0</span>
           </div>
 
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-white/60">
             Baseado em centenas de avaliações de tutores reais
           </p>
         </div>
