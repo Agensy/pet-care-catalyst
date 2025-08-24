@@ -1,19 +1,20 @@
 # .cpanel.yml
 deployment:
   tasks:
-    # Caminhos principais
     - export REPO_DIR=$(pwd)
     - export PUBLIC_DIR=/home2/Julio861/public_html
 
-    # 1) Instalar dependências (preferência: npm, mas detecta yarn também)
+    # Instalar dependências
     - 'if [ -f yarn.lock ]; then /usr/local/bin/yarn install --frozen-lockfile; else /usr/local/bin/npm ci --no-audit --no-fund; fi'
 
-    # 2) Build de produção com Vite
+    # Build de produção (Vite)
     - 'if [ -f yarn.lock ]; then CI=false /usr/local/bin/yarn build; else CI=false /usr/local/bin/npm run build; fi'
 
-    # 3) Publicar: limpar pasta pública e copiar dist/
+    # Apagar conteúdo antigo
     - /bin/rm -rf $PUBLIC_DIR/*
+
+    # Copiar dist/ para public_html
     - /bin/cp -R $REPO_DIR/dist/* $PUBLIC_DIR/
 
-    # 4) Copiar .htaccess para tratar rotas do React Router (se existir)
+    # Garantir que o .htaccess seja copiado
     - 'if [ -f .htaccess ]; then /bin/cp .htaccess $PUBLIC_DIR/.htaccess; fi'
