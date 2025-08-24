@@ -1,4 +1,4 @@
-# .htaccess
+# .htaccess para SPA (Vite + React Router)
 Options -MultiViews
 RewriteEngine On
 RewriteBase /
