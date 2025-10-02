@@ -53,7 +53,15 @@ const Hero = () => {
 
           {/* Call to Actions */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button onClick={handleWhatsAppClick} size="lg" className="bg-gradient-primary hover:shadow-glow transition-smooth text-lg px-8 py-4 rounded-full text-slate-50">
+            <Button 
+              onClick={handleWhatsAppClick} 
+              size="lg" 
+              className="transition-smooth text-lg px-8 py-4 rounded-full text-white hover:scale-105"
+              style={{ 
+                background: 'linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 46%))',
+                boxShadow: '0 4px 20px hsl(142 76% 36% / 0.3)'
+              }}
+            >
               Agendar Consulta
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
