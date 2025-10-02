@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Heart, Star } from "lucide-react";
 const Hero = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5511988750856?text=Olá! Quero agendar uma consulta para meu pet na Pet Shop Lola.", "_blank");
+    window.open("https://wa.me/5511988750857?text=Olá! Quero agendar uma consulta para meu pet na Pet Shop Lola.", "_blank");
   };
   const handleLearnMoreClick = () => {
     const element = document.getElementById("sobre");
@@ -76,7 +76,7 @@ const Hero = () => {
               </div>
               <div>
                 <div className="font-semibold text-foreground">WhatsApp</div>
-                <div className="text-muted-foreground">(11) 98875-0856</div>
+                <div className="text-muted-foreground">(11) 98875-0857</div>
               </div>
             </div>
           </div>

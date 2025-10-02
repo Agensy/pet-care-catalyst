@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5511988750856?text=Olá! Gostaria de agendar uma consulta para meu pet.", "_blank");
+    window.open("https://wa.me/5511988750857?text=Olá! Gostaria de agendar uma consulta para meu pet.", "_blank");
   };
 
   return (
@@ -65,7 +65,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <Phone className="w-4 h-4" />
-              <span>(11) 98875-0856</span>
+              <span>(11) 98875-0857</span>
             </div>
             <Button onClick={handleWhatsAppClick} className="bg-gradient-primary hover:shadow-glow transition-smooth">
               WhatsApp
@@ -112,7 +112,7 @@ const Header = () => {
               <div className="pt-4 border-t">
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-4">
                   <Phone className="w-4 h-4" />
-                  <span>(11) 98875-0856</span>
+                  <span>(11) 98875-0857</span>
                 </div>
                 <Button onClick={handleWhatsAppClick} className="w-full bg-gradient-primary hover:shadow-glow transition-smooth">
                   WhatsApp

@@ -13,7 +13,7 @@ import {
 const Services = () => {
   const handleWhatsAppClick = (service: string) => {
     const message = `Olá! Gostaria de saber mais sobre ${service} na Pet Shop Lola.`;
-    window.open(`https://wa.me/5511988750856?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/5511988750857?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   const services = [

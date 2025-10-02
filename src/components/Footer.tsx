@@ -2,7 +2,7 @@ import { Heart, MapPin, Phone, Mail, Clock, Instagram } from "lucide-react";
 
 const Footer = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5511988750856?text=Olá! Gostaria de informações sobre os serviços da Pet Shop Lola.", "_blank");
+    window.open("https://wa.me/5511988750857?text=Olá! Gostaria de informações sobre os serviços da Pet Shop Lola.", "_blank");
   };
 
   const handleEmailClick = () => {
@@ -114,7 +114,7 @@ const Footer = () => {
                   onClick={handleWhatsAppClick}
                   className="text-background/90 hover:text-primary transition-smooth"
                 >
-                  (11) 98875-0856
+                  (11) 98875-0857
                 </button>
               </li>
               

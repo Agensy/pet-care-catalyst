@@ -13,7 +13,7 @@ import {
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5511988750856?text=Olá! Gostaria de agendar uma consulta para meu pet na Pet Shop Lola. Quando seria possível?", "_blank");
+    window.open("https://wa.me/5511988750857?text=Olá! Gostaria de agendar uma consulta para meu pet na Pet Shop Lola. Quando seria possível?", "_blank");
   };
 
   const handleEmailClick = () => {
@@ -70,7 +70,7 @@ const Contact = () => {
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-foreground mb-1">WhatsApp</h4>
-                    <p className="text-muted-foreground">(11) 98875-0856</p>
+                    <p className="text-muted-foreground">(11) 98875-0857</p>
                     <p className="text-sm text-primary">Clique para conversar agora</p>
                   </div>
                   <ArrowRight className="w-5 h-5 text-primary group-hover:translate-x-1 transition-smooth" />

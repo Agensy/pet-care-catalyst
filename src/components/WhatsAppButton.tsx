@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5511988750856?text=Olá! Gostaria de agendar uma consulta para meu pet na Pet Shop Lola.", "_blank");
+    window.open("https://wa.me/5511988750857?text=Olá! Gostaria de agendar uma consulta para meu pet na Pet Shop Lola.", "_blank");
   };
 
   return (
